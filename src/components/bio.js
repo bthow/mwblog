@@ -6,7 +6,7 @@
  */
 
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import { Link, StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
@@ -38,11 +38,10 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Posted by <strong>{author}</strong> who lives in 
+              Redfern in Sydney and is building a fitness app for Christians spiritually. 
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+		<Link to="/starts-here/">The story starts here</Link>               <a href={`https://www.instagram.com/${social.instagram}`}>
               </a>
             </p>
           </div>
@@ -65,7 +64,7 @@ const bioQuery = graphql`
       siteMetadata {
         author
         social {
-          twitter
+          instagram 
         }
       }
     }

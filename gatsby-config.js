@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Meanwhile Project`,
+    author: `Ben Thow`,
+    description: `An app for christian spirituality`,
+    siteUrl: `https://meanwhile.org.au`,
     social: {
-      twitter: `kylemathews`,
+     instagram: `nimajneb_1`,
     },
   },
   plugins: [
@@ -34,6 +34,16 @@ module.exports = {
             },
           },
           {
+            resolve: `gatsby-remark-embed-video`,
+            options: {
+              width: 800,
+              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+              height: 400, // Optional: Overrides optional.ratio
+              related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+              noIframeBorder: true //Optional: Disable insertion of <style> border: 0
+            }
+          },
+	  {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
@@ -41,7 +51,7 @@ module.exports = {
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
+          `gatsby-remark-smartypants`
         ],
       },
     },
