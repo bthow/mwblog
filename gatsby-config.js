@@ -84,5 +84,11 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+      endpoint: 'https://thow.us3.list-manage.com/subscribe/post?u=473a81159c237f9843220f4ef&amp;id=fe5d985cb8', // add your MC list endpoint here; see instructions below
+      }
+    },
   ],
 }
