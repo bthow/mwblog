@@ -39,7 +39,7 @@ function Bio() {
             />
             <p>
               Posted by <strong>{author}</strong> who lives in 
-              Redfern in Sydney and is building a fitness app for Christians spiritually. 
+              Redfern in Sydney and is building an app for Christians spiritually. 
               {` `}
 		<Link to="/starts-here/">start here</Link>               <a href={`https://www.instagram.com/${social.instagram}`}>
               </a>

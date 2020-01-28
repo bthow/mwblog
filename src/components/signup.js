@@ -1,5 +1,6 @@
 import React from "react"
 import addToMailchimp from 'gatsby-plugin-mailchimp'
+import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 class SignUp extends React.Component {
  state = {
@@ -34,29 +35,24 @@ class SignUp extends React.Component {
   }
 
   render() {
-     return (
-      <form onSubmit={this._handleSubmit}>
-        Subscribe -  Sending updates about every two weeks...
-	<input
-	    type="text"
-		    onChange={this._handleChange}
-		    placeholder="name"
-		    name="name"
-		/>
-		<input
-		    type="email"
-		    onChange={this._handleChange}
-		    placeholder="email"
-		    name="email"
-		/>
-		<input
-		    type="comment"
-		    onChange={this._handleChange}
-		    placeholder="comment"
-		    name="comment"
-		/>
-		<input type="submit" />
-      </form>
+    const { blurbText } = this.props
+    return (
+      <Form onSubmit={this._handleSubmit}>
+        <FormText>{blurbText}</FormText>
+        <div class="input-group ms-4">
+          <Input
+              class="form-control"
+              type="email"
+              onChange={this._handleChange}
+              placeholder="Enter your email..."
+              name="email"
+          />
+          <button class="btn btn-danger" 
+            type="button">Subscribe</button>
+          <div class="input-group-append">
+          </div>
+        </div>
+      </Form>
 	
     )
   }

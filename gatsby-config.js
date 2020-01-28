@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Meanwhile Project`,
+    title: `Meanwhile`,
     author: `Ben Thow`,
-    description: `An app for christian spirituality`,
+    description: `A Christian ministry in Redfern Sydney`,
     siteUrl: `https://meanwhile.org.au`,
     social: {
      instagram: `nimajneb_1`,
@@ -21,6 +21,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/resources`,
+        name: `resources`,
       },
     },
     {
@@ -62,6 +69,15 @@ module.exports = {
       options: {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
+    },
+  	{
+	    resolve: `gatsby-plugin-google-fonts`,
+	    options: {
+        fonts: [
+        `Lora:400,700,400italic,700italic`,
+        `Open\+Sans\:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800` 
+        ]
+      }
     },
     `gatsby-plugin-feed`,
     {

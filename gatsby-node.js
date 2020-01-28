@@ -4,6 +4,15 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
+    /*
+type MarkdownRemarkFrontmatter {
+      image: File
+    }
+
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }*/
+
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
   return graphql(
     `
