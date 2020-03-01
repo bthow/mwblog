@@ -25,7 +25,7 @@ class BlogIndex extends React.Component {
       <div>
         <SiteNav/>
          <Header location={this.props.location} title={siteTitle} 
-                  subTitle="Fostering discipleship in the everyday" bgImage={bgImage}/>
+                  subTitle="Living a bigger story" bgImage={bgImage}/>
           <SEO title="All posts" />
 
           <Container>
@@ -91,7 +91,7 @@ We're dedicated to following Jesus together.  Figure out your shape and calling.
         <Navbar color="primary" light center-text justify-content-center expand="md">
 <Container></Container>
           <div class="row justify-content-center">
-            <div class="col-sm-1 col-lg-3">
+            <div class="col-sm-12 col-lg-3">
               <SignUp
                 class="mr-auto ml-auto"
                 blurbText="Register your interest, give prayer support, get early access to the app, watch interviews with practitioners - updates every few weeks..."

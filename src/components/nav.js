@@ -72,7 +72,7 @@ class SiteNav extends React.Component {
                     class="nav-link"
                     className="nav-link"
                     activeClaseName="nav-link selected"
-                    to="/church/">
+                    to="/about/">
                       About Us
                   </Link>
  

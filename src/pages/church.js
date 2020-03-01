@@ -26,15 +26,14 @@ class ChurchIndex extends React.Component {
       <div> 
         <SiteNav/>
           <Header location={this.props.location} 
-                  title="Meanwhile" 
-                  subTitle="A back-to-basics church community" 
+                  title="Meanwhile Church" 
+                  subTitle="Redfern, Sydney " 
                   bgImage={bgImage}>
           <SEO title="church" />
         </Header>
         <section class="features-icons bg-light text-center">
           <div class="container">
-          Say something brief about the church... 
-          [More]
+
           </div>
         </section>
         <section class="features-icons bg-light text-center">
@@ -102,8 +101,8 @@ class ChurchIndex extends React.Component {
  
           <div class="">
             <Contact 
-              title="Meet up with us" 
-              desc="We meet Sunday morning in and around the Redfern area."/>
+              title="Contact us" 
+              desc="We'd love to hear from you, or plan a visit with us.  We meet Sunday morning in and around the Redfern area."/>
           </div>
         </BackgroundImage>
         <Footer/>
