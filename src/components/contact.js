@@ -10,17 +10,17 @@ function encode(data) {
 class Contact extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {sent:false};
   }
 
   handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value });
+    this.setState({sent:false, [e.target.name]: e.target.value });
   };
 
   handleSubmit = e => {
     e.preventDefault();
+    console.log('sending');
     const form = e.target;
-    console.log('post comment');
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -29,7 +29,10 @@ class Contact extends React.Component {
         ...this.state
       })
     })
-      .then(() => alert('Thanks, ' + form.getAttribute("action") + 'Sent'))
+      .then(() => {
+        this.setState({sent: true});
+        alert('Thanks, Sent');
+      })
       .catch(error => alert(error));
   };
 
@@ -65,20 +68,20 @@ class Contact extends React.Component {
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <Input class="form-control" size="lg" id="phone" type="tel" placeholder="Your Phone" ></Input>
+                  <Input class="form-control" size="lg" name="phone" type="tel" placeholder="Your Phone" ></Input>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <textarea class="form-control"  size="lg"  id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <textarea class="form-control"  size="lg"  name="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <Button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">{butText}</Button>
+                <Button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">{( this.state.sent ? 'SENT!' : butText)}</Button>
               </div>
             </div>
           </Form>
