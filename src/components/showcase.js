@@ -1,7 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import { rhythm, scale } from "../utils/typography"
-import Img from "gatsby-image"
 import BackgroundImage from "gatsby-background-image"
 
 class ShowCase extends React.Component {

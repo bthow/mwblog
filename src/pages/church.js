@@ -1,25 +1,22 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import { Container, Row } from 'reactstrap';
+import { graphql } from "gatsby"
 import SiteNav from "../components/nav"
 import SEO from "../components/seo"
 import Contact from "../components/contact"
 import Header from "../components/header"
 import ShowCase from "../components/showcase"
-import MwLayout from "../components/mw-layout"
 import Footer from "../components/footer"
 import BackgroundImage from "gatsby-background-image"
 
 class ChurchIndex extends React.Component {
   render() {
     const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
     const bgImage = data.file.childImageSharp.fixed
     const bgContactImage = data.bgContact.childImageSharp.fixed
     const showCaseImages = []
     data.allFile.nodes.map(({childImageSharp}) => {
       showCaseImages.push(childImageSharp.fixed);
+      return null;
     })
 
     return (

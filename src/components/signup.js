@@ -1,6 +1,6 @@
 import React from "react"
 import addToMailchimp from 'gatsby-plugin-mailchimp'
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Form, Input, FormText } from 'reactstrap';
 
 class SignUp extends React.Component {
  state = {

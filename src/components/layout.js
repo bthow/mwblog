@@ -1,14 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
-import { rhythm, scale } from "../utils/typography"
-import Img from "gatsby-image"
-import BackgroundImage from "gatsby-background-image"
+import { rhythm } from "../utils/typography"
 import Header from "./header.js"
 
 class Layout extends React.Component {
   render() {
     const { location, title, children, bgImage } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
     let header
 
     

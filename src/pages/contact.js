@@ -1,27 +1,29 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Contact from "../components/contact"
-
+import { Container, Row, Col} from 'reactstrap';
 import Nav from "../components/nav"
-import Layout from "../components/layout"
 import Footer from "../components/footer"
 
 class ContactPage extends React.Component {
   render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const bgImage = data.file.childImageSharp.fixed
 
     return (
       <div> 
         <Nav/>
-        <Layout location={this.props.location} 
-                title={siteTitle} 
-                bgImage={bgImage}>
-            
-          <h1>Contact</h1>
-          <Contact/>
-        </Layout>
+        <Container py="5">    
+          
+          <Row>
+            <Col xs="6" sm="10">
+              <h1>Contact</h1>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs="6" sm="10">
+              <Contact/>
+            </Col>
+          </Row>
+        </Container>
         <Footer/>
       </div>
     )
@@ -49,13 +51,6 @@ export const pageQuery = graphql`
             description
           }
         }
-      }
-    }
-    file(absolutePath: { regex: "/home-bg.jpg/" }) {
-      childImageSharp {
-          fixed(width: 1240) {
-            ...GatsbyImageSharpFixed
-          }
       }
     }
   }

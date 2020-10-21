@@ -2,10 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Meanwhile`,
     author: `Ben Thow`,
-    description: `A Christian ministry in Redfern Sydney`,
+    description: `Practical Spirituality`,
     siteUrl: `https://meanwhile.org.au`,
     social: {
-     instagram: `nimajneb_1`,
+     instagram: `meanwhile.org.au`,
     },
   },
   plugins: [
@@ -75,21 +75,22 @@ module.exports = {
 	    options: {
         fonts: [
         `Lora:400,700,400italic,700italic`,
+        `Bree\+Serif:400`, // Meanwhile title
         `Open\+Sans\:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800` 
         ]
       }
     },
-    `gatsby-plugin-feed`,
+    `gatsby-plugin-feed`, //RSS Generator
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Meanwhile Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon/mw_yellow_icon.png`,
       },
     },
     `gatsby-plugin-offline`,

@@ -1,5 +1,5 @@
 import React from "react"
-import { Button, Form, FormGroup, Label, Input, FormText, TextArea } from 'reactstrap';
+import { Button, Form, Input } from 'reactstrap';
 
 function encode(data) {
   return Object.keys(data)
@@ -37,11 +37,11 @@ class Contact extends React.Component {
     const butText = (commentType ? commentType : "Send")    
 
     return (
-      <div class="container">
+      <div class="container mwContact">
       <div class="row">
-        <div class="col-lg-12 text-center">
+        <div class="col-lg-12 mb-4 text-center">
           <h2 class="section-heading text-uppercase">{title}</h2>
-          <h3 class="section-subheading text-muted">{desc}</h3>
+          <h3 class="section-subheading ">{desc}</h3>
         </div>
       </div>
       <div class="row">
@@ -55,22 +55,22 @@ class Contact extends React.Component {
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <Input class="form-control" name="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." onChange={this.handleChange}></Input>
+                  <Input class="form-control" size="lg" name="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." onChange={this.handleChange}></Input>
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <Input class="form-control" name="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." onChange={this.handleChange}></Input>
+                  <Input class="form-control" size="lg" name="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." onChange={this.handleChange}></Input>
        
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <Input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-validation-required-message="Please enter your phone number."></Input>
+                  <Input class="form-control" size="lg" id="phone" type="tel" placeholder="Your Phone" ></Input>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <textarea class="form-control"  size="lg"  id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>

@@ -1,7 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
-import Img from "gatsby-image"
 import BackgroundImage from "gatsby-background-image"
 
 class Header extends React.Component {
@@ -9,8 +7,10 @@ class Header extends React.Component {
     const { location, title, subTitle, bgImage, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let content
+    let titleClass = ""
 
     if (location.pathname === rootPath) {
+      titleClass = "mwLogoFont"
     }
     content = (
         <div class="container">
@@ -21,6 +21,7 @@ class Header extends React.Component {
                 marginBottom: rhythm(1.5),
                 marginTop: 0,
                 }}
+                  class={titleClass}
                   >{title}</h1>
                 <h3>
                 <span class="subheading">{subTitle}</span>

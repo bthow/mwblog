@@ -1,17 +1,13 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import {
   Collapse,
   Navbar,
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  NavItem 
+} from 'reactstrap';
 
 class SiteNav extends React.Component {
   constructor(props) {
@@ -45,13 +41,19 @@ class SiteNav extends React.Component {
             class="nav-item nav-line ml-auto" 
             activeClaseNameName="nav-item nav-line ml-auto" 
             href="#" 
-            to="/church/">About Us</Link>
+            to="/church/">About </Link>
 
           <Link 
             class="nav-item nav-link ml-1" 
             activeClaseNameName="nav-item nav-line ml-1" 
             href="#" 
-            to="/appProject/">App Project</Link>
+            to="/appProject/">App </Link>
+
+          <Link 
+            class="nav-item nav-link ml-1" 
+            activeClaseNameName="nav-item nav-line ml-1" 
+            href="#" 
+            to="/blog/">Blog</Link>
 
           <Link 
             class="nav-item nav-link ml-1" 
@@ -63,7 +65,9 @@ class SiteNav extends React.Component {
   */}
 
           <Navbar color="light" light expand="md">
-            <NavbarBrand href="/">{siteTitle}</NavbarBrand>
+            <NavbarBrand 
+              className="mwLogoFont" 
+              href="/">{siteTitle}</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
@@ -73,17 +77,36 @@ class SiteNav extends React.Component {
                     className="nav-link"
                     activeClaseName="nav-link selected"
                     to="/about/">
-                      About Us
+                      About 
                   </Link>
- 
+                </NavItem>
+                {/*<NavItem>
+                 <Link 
+                    class="nav-link"
+                    className="nav-link"
+                    activeClaseName="nav-link selected"
+                    to="/blog/">
+                      Blog 
+                  </Link>
                 </NavItem>
                 <NavItem>
                   <Link 
                     class="nav-link"
                     className="nav-link"
                     activeClaseName="nav-link selected"
-                    to="/appProject/">App Project</Link>
+                    to="/appProject/">
+                      App Project
+                  </Link>
                 </NavItem>
+                <NavItem>
+                 <Link 
+                    class="nav-link"
+                    className="nav-link"
+                    activeClaseName="nav-link selected"
+                    to="/resources/">
+                      Resources
+                  </Link>
+                </NavItem>*/}
                 <NavItem>
                   <Link 
                     class="nav-link"

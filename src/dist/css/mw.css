@@ -1,0 +1,77 @@
+/*
+Style 
+https://www.canva.com/learn/website-color-schemes/
+Considering Lush, Origini or Joy
+
+Icon:
+https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=text&foreground.text.text=M&foreground.text.font=Bree%20Serif&foreground.space.trim=1&foreground.space.pad=0.15&foreColor=rgb(0%2C%200%2C%200)&backColor=rgb(255%2C%20255%2C%20255)&crop=0&backgroundShape=square&effects=elevate&name=mw_icon
+
+*/
+.mwContact textarea { height: 173px }
+.mwContact button#sendMessageButton { width: 200px }
+.mwLogoFont {
+  font-family: 'Bree Serif'
+}
+
+.mwFooterAbs {
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: #f5f5f5;
+}
+/* Footer Social */
+ul#services {
+  text-align: center;
+  transform: translatez(0);
+}
+ul#services h2 {
+  margin: 80px 0px 40px;
+  color: #fff;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+ul#services li {
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+ul#services li div {
+  font-size: 3.0em;
+  text-align: center;
+  line-height: 55px;
+  transition: all 0.5s ease;
+ text-decoration: none !important;  
+}
+ul#services li a, ul#services li a:link, ul#services li a:visited {
+ color: #6c757d; 
+ text-decoration: none !important;  
+}
+ul#services li div:hover {
+  color: #bd2130;
+ text-decoration: none !important;  
+}
+ul#services li span {
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+.credits a {
+  display: block;
+  text-align: center;
+  color: #74d4b3;
+  text-decoration: none;
+  font-size: 24px;
+  margin-top: 50px;
+  background: white;
+  padding: 20px;
+  max-width: 300px;
+}
+
+
+

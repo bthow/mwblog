@@ -1,0 +1,5 @@
+Used this tool:
+
+https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=text&foreground.text.text=M&foreground.text.font=Bree%20Serif&foreground.space.trim=1&foreground.space.pad=0.15&foreColor=rgb(255%2C%20193%2C%207)&backColor=rgb(0%2C%200%2C%200)&crop=0&backgroundShape=square&effects=elevate&name=mw_icon
+
+

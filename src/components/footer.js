@@ -1,8 +1,5 @@
 import React from "react"
-import { useStaticQuery, Link, graphql } from "gatsby"
-import {
-  Collapse
-   } from 'reactstrap';
+import { useStaticQuery, graphql } from "gatsby"
 
 function Footer({title}) {
  const { site } = useStaticQuery(
@@ -21,40 +18,30 @@ function Footer({title}) {
 
   const siteTitle = site.siteMetadata.title
   return (
-    <footer>
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-<a class="navbar-brand" href="/">{siteTitle}</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarCollapse">
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
-      <Link 
-                    class="nav-link"
-                    className="nav-link"
-                    activeClaseName="nav-link selected"
-                    to="/church/">
-                      About Us
-                  </Link>
-    </li>
-    <li class="nav-item">
-      <Link 
-                    class="nav-link"
-                    className="nav-link"
-                    activeClaseName="nav-link selected"
-                    to="/appProject/">App Project</Link>
-    </li>
-    <li class="nav-item">
-       <Link 
-                    class="nav-link"
-                    className="nav-link"
-                    activeClaseName="nav-link selected"
-                    to="/contact/">Contact</Link>
-    </li>
-  </ul>
-</div>
-</nav>
+    <footer class="mwFooter mt-4">
+      <div class="container d-flex">
+         <ul class="mx-auto" id="services">
+            <li> 
+             <div class="instagram">
+                <a href="https://instagram.com/meanwhile.org.au?r=nametag/">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div> 
+            </li>
+            <li>
+              <div class="youtube">
+                <a href="https://youtube.com/channel/UCGfc1hXKSU0-H469pLDdcyg">
+                  <i class="fab fa-youtube" aria-hidden="true"></i>
+                </a>
+              </div> 
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center"> 
+          <span class="mwLogoFont navbar-brand" href="/">© {siteTitle}, All Rights Reserved.</span>
+        </div>
+        	
+  
       {/*<nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">Meanwhile</a>
         <div class="collapse navbar-collapse" id="navbarText">
