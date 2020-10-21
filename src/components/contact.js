@@ -20,6 +20,7 @@ class Contact extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
     const form = e.target;
+    console.log('post comment');
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
