@@ -4,9 +4,7 @@ import { Form, Input, FormText } from 'reactstrap';
 
 class SignUp extends React.Component {
  state = {
-        name: null,
-        email: null,
-	
+        email: null
     }
 
     _handleChange = (e) => {

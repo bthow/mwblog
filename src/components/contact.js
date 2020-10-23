@@ -31,7 +31,6 @@ class Contact extends React.Component {
     })
       .then(() => {
         this.setState({sent: true});
-        alert('Thanks, Sent');
       })
       .catch(error => alert(error));
   };
