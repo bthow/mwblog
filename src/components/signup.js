@@ -46,7 +46,7 @@ class SignUp extends React.Component {
               name="email"
           />
           <button class="btn btn-danger" 
-            type="button">Subscribe</button>
+            type="submit">Subscribe</button>
           <div class="input-group-append">
           </div>
         </div>
