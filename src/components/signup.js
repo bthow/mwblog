@@ -1,12 +1,14 @@
 import React from "react"
 import addToMailchimp from 'gatsby-plugin-mailchimp'
-import { Form, Input, FormText } from 'reactstrap';
+import { Form, Input, FormText, Alert } from 'reactstrap';
 
 class SignUp extends React.Component {
- state = {
-        email: null
+   state = {
+        email: null, 
+        result: null,
+        msg:"" 
     }
-
+    
     _handleChange = (e) => {
         console.log({
             [`${e.target.name}`]: e.target.value,
@@ -24,12 +26,38 @@ class SignUp extends React.Component {
       // I recommend setting data to React state
       // but you can do whatever you want (including ignoring this `then()` altogether)
       console.log(data)
+      this.setState(data);
     })
     .catch(() => {
       // unnecessary because Mailchimp only ever
       // returns a 200 status code
       // see below for how to handle errors
     })
+  }
+
+  cleanMessage(msg){
+    const regex = /<.*\>/gm;
+    const subst = ``;
+
+    // The substituted value will be contained in the result variable
+    const result = msg.replace(regex, subst);
+
+    console.log('Substitution result: ', result); 
+    return result;
+  }
+  
+  mapResult(result){
+    switch(result){
+      case "error":
+        return "danger";
+        break;
+      case "success":
+        return result;
+        break;
+      default: 
+        return "info";
+        break;
+    }
   }
 
   render() {
@@ -47,7 +75,13 @@ class SignUp extends React.Component {
           />
           <button class="btn btn-danger" 
             type="submit">Subscribe</button>
-          <div class="input-group-append">
+          <div class="input-group pt2">
+            <Alert 
+              color={this.mapResult(this.state.result)} 
+              isOpen={(this.state.result !== null)}
+            >
+              {this.cleanMessage(this.state.msg)}
+            </Alert>
           </div>
         </div>
       </Form>
