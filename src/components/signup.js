@@ -75,7 +75,7 @@ class SignUp extends React.Component {
           />
           <button class="btn btn-danger" 
             type="submit">Subscribe</button>
-          <div class="input-group pt2">
+          <div class="input-group pt-2">
             <Alert 
               color={this.mapResult(this.state.result)} 
               isOpen={(this.state.result !== null)}
