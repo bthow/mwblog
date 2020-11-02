@@ -18,7 +18,7 @@ class ContactPage extends React.Component {
               <h1>Contact</h1>
             </Col>
           </Row>
-          <Row>
+          <Row className="justify-content-center">
             <Col xs="6" sm="10">
               <Contact/>
             </Col>

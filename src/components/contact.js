@@ -1,5 +1,6 @@
 import React from "react"
-import { Button, Form, Input } from 'reactstrap';
+import { Button, Form, Input } from 'reactstrap'
+import ButtonSend from './buttonSend';
 
 function encode(data) {
   return Object.keys(data)
@@ -10,16 +11,19 @@ function encode(data) {
 class Contact extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {sent:false};
+    this.state = { sent:false, sending:false };
   }
 
   handleChange = e => {
-    this.setState({sent:false, [e.target.name]: e.target.value });
+    this.setState({sent:false, sending:false, [e.target.name]: e.target.value });
   };
 
   handleSubmit = e => {
     e.preventDefault();
+
     console.log('sending');
+    this.setState({sending:true});
+
     const form = e.target;
     fetch("/", {
       method: "POST",
@@ -30,14 +34,13 @@ class Contact extends React.Component {
       })
     })
       .then(() => {
-        this.setState({sent: true});
+        this.setState({sent: true, sending: false});
       })
       .catch(error => alert(error));
   };
 
   render() {
     const { title, desc, commentType } = this.props
-    const butText = (commentType ? commentType : "Send")    
 
     return (
       <div class="container mwContact">
@@ -73,14 +76,15 @@ class Contact extends React.Component {
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <textarea class="form-control"  size="lg"  name="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <Input type="textarea" class="form-control"  size="lg"  name="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message." onChange={this.handleChange} />
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                <Button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">{( this.state.sent ? 'SENT!' : butText)}</Button>
+                <ButtonSend sending={this.state.sending} 
+                        sent={this.state.sent} 
+                />
               </div>
             </div>
           </Form>

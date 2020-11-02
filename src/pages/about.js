@@ -139,7 +139,7 @@ We're a group of Christians collaborating to produce content for living a health
           <div class="container-fluid p-0">
             <ShowCase
               title="Our Name"
-              subtext="Behind the name 'Meanwhile' is the commitment to live with God. Our lives are wrapped up in a bigger, unfolding story that Jesus has revealled. Life today is complicated and can be confusing. Its easy to get side-tracked into living a story that revolves too much around our own needs and wants. Too often stories of defficit, woundedness, anxiety and inadeqacy get the better of us in the wrestle to stay emotional and spiritual healthy." 
+              subtext="Behind the name 'Meanwhile' is the commitment to live with God. Our lives are wrapped up in a bigger, unfolding story that Jesus has revealled. Life today is complicated and can be confusing. Its easy to get side-tracked into living a story that revolves too much around our own needs and wants. Too often stories of defficit, woundedness, anxiety and inadeqacy get the better of us in the wrestle to stay emotionally and spiritually healthy." 
               bgImage={showCaseImages[0]}
               altpos={false} />
           </div>
