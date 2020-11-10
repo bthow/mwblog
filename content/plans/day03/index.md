@@ -1,11 +1,11 @@
 ---
-date: 2019-03-27
-title: Source readings of Jesus - Day 1 
-description: The life and teaching of Jesus
+date: 2020-11-10
+title: The life and teaching of Jesus  
+description: Day 03
 translation: netbible
 tag: guide
-passage: |
-  Add passage here
---
+thumbnail: ./manuscript.jpg
+passage: 
+---
 
-Text here
+Add text here...
