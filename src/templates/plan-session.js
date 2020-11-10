@@ -39,9 +39,6 @@ class PlanSessionTemplate extends React.Component {
               marginBottom: rhythm(1),
             }}
           />
-          <Share 
-            url={postUrl}
-            title={post.frontmatter.title} />
           <Contact 
             title="Your thoughts..."
             commentType="Post"

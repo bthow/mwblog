@@ -36,7 +36,9 @@ It begins 2000 years ago during the Roman Empire, in the jewish countryside.
 
   Now a leper came to him and fell to his knees, asking for help. “If you are willing, you can make me clean,” he said. Moved with indignation, Jesus stretched out his hand and touched him, saying, “I am willing. Be clean!” The leprosy left him at once, and he was clean. Immediately Jesus sent the man away with a very strong warning. He told him, “See that you do not say anything to anyone, but go, show yourself to a priest, and bring the offering that Moses commanded for your cleansing, as a testimony to them.” But as the man went out he began to announce it publicly and spread the story widely, so that Jesus was no longer able to enter any town openly but stayed outside in remote places. Still they kept coming to him from everywhere. 
 
-*The Bible, Gospel of Mark Chapter 1 (translation by netbible.org)*
+_The Bible, Gospel of Mark Chapter 1 (translation by netbible.org)_
+
 ---
 
 ...Add here 5 important things to notice
+
