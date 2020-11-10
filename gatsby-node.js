@@ -1,7 +1,7 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
     /*
@@ -14,11 +14,12 @@ type MarkdownRemarkFrontmatter {
     }*/
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
-  return graphql(
+  await graphql(
     `
       {
         allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
+         filter: {fileAbsolutePath: {regex: "/content/blog/"}}
+         sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
           edges {
@@ -59,6 +60,51 @@ type MarkdownRemarkFrontmatter {
 
     return null
   })
+
+  const planSession = path.resolve(`./src/templates/plan-session.js`)
+  await graphql(
+    `
+      {
+        allMarkdownRemark(
+         filter: {fileAbsolutePath: {regex: "/content/plans/"}}
+         sort: { fields: [frontmatter___date], order: DESC }
+          limit: 1000
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+      }
+    `
+  ).then(result => {
+    if (result.errors) {
+      throw result.errors
+    }
+
+    // Create reading plan session pages.
+    const sessions = result.data.allMarkdownRemark.edges
+
+    sessions.forEach((session, index) => {
+
+      createPage({
+        path: session.node.fields.slug,
+        component: planSession,
+        context: {
+          slug: session.node.fields.slug
+        },
+      })
+    })
+
+    return null
+  })
+
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
