@@ -1,19 +1,47 @@
 ---
-date: 2019-03-27
-title: Source readings of Jesus - Day 1 
-description: The life and teaching of Jesus
-translation: netbible
+date: 2020-11-22
+title: Deep Dive - Day 2 
+description: Day 2
+translation: Message
 tag: guide
 thumbnail: ./manuscript.jpg
-passage: |
-  Now after some days, when he returned to Capernaum, the news spread that he was at home. So many gathered that there was no longer any room, not even by the door, and he preached the word to them. Some people came bringing to him a paralytic, carried by four of them. When they were not able to bring him in because of the crowd, they removed the roof above Jesus. Then, after tearing it out, they lowered the stretcher the paralytic was lying on. When Jesus saw their faith, he said to the paralytic, “Son, your sins are forgiven.” Now some of the experts in the law were sitting there, turning these things over in their minds\: “Why does this man speak this way? He is blaspheming! Who can forgive sins but God alone?” Now immediately, when Jesus realized in his spirit that they were contemplating such thoughts, he said to them, “Why are you thinking such things in your hearts? Which is easier, to say to the paralytic, ‘Your sins are forgiven,’ or to say, ‘Stand up, take your stretcher, and walk’? But so that you may know that the Son of Man has authority on earth to forgive sins,”—he said to the paralytic— “I tell you, stand up, take your stretcher, and go home.” And immediately the man stood up, took his stretcher, and went out in front of them all. They were all amazed and glorified God, saying, “We have never seen anything like this!”
-
-  Jesus went out again by the sea. The whole crowd came to him, and he taught them. As he went along, he saw Levi, the son of Alphaeus, sitting at the tax booth. “Follow me,” he said to him. And he got up and followed him. As Jesus was having a meal in Levi’s home, many tax collectors and sinners were eating with Jesus and his disciples, for there were many who followed him. When the experts in the law and the Pharisees saw that he was eating with sinners and tax collectors, they said to his disciples, “Why does he eat with tax collectors and sinners?” When Jesus heard this he said to them, “Those who are healthy don’t need a physician, but those who are sick do. I have not come to call the righteous, but sinners.”
-
-  Now John’s disciples and the Pharisees were fasting. So they came to Jesus and said, “Why do the disciples of John and the disciples of the Pharisees fast, but your disciples don’t fast?” Jesus said to them, “The wedding guests cannot fast while the bridegroom is with them, can they? As long as they have the bridegroom with them they do not fast. But the days are coming when the bridegroom will be taken from them, and at that time they will fast. No one sews a patch of unshrunk cloth on an old garment; otherwise, the patch pulls away from it, the new from the old, and the tear becomes worse. And no one pours new wine into old wineskins; otherwise, the wine will burst the skins, and both the wine and the skins will be destroyed. Instead new wine is poured into new wineskins.”
-
-  Jesus was going through the grain fields on a Sabbath, and his disciples began to pick some heads of wheat as they made their way. So the Pharisees said to him, “Look, why are they doing what is against the law on the Sabbath?” He said to them, “Have you never read what David did when he was in need and he and his companions were hungry— how he entered the house of God when Abiathar was high priest and ate the sacred bread, which is against the law for any but the priests to eat, and also gave it to his companions?” Then he said to them, “The Sabbath was made for people, not people for the Sabbath. For this reason the Son of Man is lord even of the Sabbath.” 
+passage: Mark 2
 ---
 
-Further thoughts
+At the end of the last reading we saw a Leper not only healed but told to quietly apply (to the priest) to leave isolation and rejoin the community. Today you’ll see more of those brief factual stories of people having encounters with Jesus.  Life is complex and relationships get messy.  Watch how Jesus responds and imagine yourself standing at the door. 
+
+People have been reading the bible as a spiritual practice for centuries.  Take a deep breath, clear you mind, read slowly. Mark teaches us through the stories...
+
+---
+
+After a few days, Jesus returned to Capernaum, and word got around that he was back home. A crowd gathered, jamming the entrance so no one could get in or out. He was teaching the Word. They brought a paraplegic to him, carried by four men. When they weren’t able to get in because of the crowd, they removed part of the roof and lowered the paraplegic on his stretcher. Impressed by their bold belief, Jesus said to the paraplegic, “Son, I forgive your sins.”
+
+Some religion scholars sitting there started whispering among themselves, “He can’t talk that way! That’s blasphemy! God and only God can forgive sins.”
+
+Jesus knew right away what they were thinking, and said, “Why are you so skeptical? Which is simpler: to say to the paraplegic, ‘I forgive your sins,’ or say, ‘Get up, take your stretcher, and start walking’? Well, just so it’s clear that I’m the Son of Man and authorized to do either, or both . . .” (he looked now at the paraplegic), “Get up. Pick up your stretcher and go home.” And the man did it—got up, grabbed his stretcher, and walked out, with everyone there watching him. They rubbed their eyes, incredulous—and then praised God, saying, “We’ve never seen anything like this!”
+The Tax Collector
+
+Then Jesus went again to walk alongside the lake. Again a crowd came to him, and he taught them. Strolling along, he saw Levi, son of Alphaeus, at his work collecting taxes. Jesus said, “Come along with me.” He came.
+
+Later Jesus and his disciples were at home having supper with a collection of disreputable guests. Unlikely as it seems, more than a few of them had become followers. The religion scholars and Pharisees saw him keeping this kind of company and lit into his disciples: “What kind of example is this, acting cozy with the riffraff?”
+
+Jesus, overhearing, shot back, “Who needs a doctor: the healthy or the sick? I’m here inviting the sin-sick, not the spiritually-fit.”
+
+Feasting or Fasting?
+
+The disciples of John and the disciples of the Pharisees made a practice of fasting. Some people confronted Jesus: “Why do the followers of John and the Pharisees take on the discipline of fasting, but your followers don’t?”
+
+Jesus said, “When you’re celebrating a wedding, you don’t skimp on the cake and wine. You feast. Later you may need to pull in your belt, but not now. As long as the bride and groom are with you, you have a good time. No one throws cold water on a friendly bonfire. This is Kingdom Come!”
+
+He went on, “No one cuts up a fine silk scarf to patch old work clothes; you want fabrics that match. And you don’t put your wine in cracked bottles.”
+
+One Sabbath day he was walking through a field of ripe grain. As his disciples made a path, they pulled off heads of grain. The Pharisees told on them to Jesus: “Look, your disciples are breaking Sabbath rules!”
+
+Jesus said, “Really? Haven’t you ever read what David did when he was hungry, along with those who were with him? How he entered the sanctuary and ate fresh bread off the altar, with the Chief Priest Abiathar right there watching—holy bread that no one but priests were allowed to eat—and handed it out to his companions?” Then Jesus said, “The Sabbath was made to serve us; we weren’t made to serve the Sabbath. The Son of Man is no lackey to the Sabbath. He’s in charge!”
+
+_The Bible, Gospel of Mark Chapter 2 (The Message translation)_
+
+---
+
+Further thoughts - five things to notice...
  

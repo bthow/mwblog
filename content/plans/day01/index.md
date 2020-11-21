@@ -8,9 +8,9 @@ thumbnail: ./manuscript.jpg
 passage: 
 ---
 
-The reason we are writing this guide is to let the *source material about Jesus* speak for itself.  The gospel of Mark as a good place as any to do this.  Its a short story of Jesus' life and teaching (and mission).  Sit, relax and enjoy....  
+The reason we are writing this guide is to let the *source material about Jesus* speak for itself.  The gospel of Mark is as a good a place as any to do this.  Its quite short but tells the story of Jesus' life and teaching.  So sit, relax and enjoy....  
 
-It begins 2000 years ago during the Roman Empire, in the jewish countryside.
+It begins 2000 years ago during in the jewish countryside... 
 
 ---
 
@@ -36,8 +36,8 @@ It begins 2000 years ago during the Roman Empire, in the jewish countryside.
 
   Now a leper came to him and fell to his knees, asking for help. “If you are willing, you can make me clean,” he said. Moved with indignation, Jesus stretched out his hand and touched him, saying, “I am willing. Be clean!” The leprosy left him at once, and he was clean. Immediately Jesus sent the man away with a very strong warning. He told him, “See that you do not say anything to anyone, but go, show yourself to a priest, and bring the offering that Moses commanded for your cleansing, as a testimony to them.” But as the man went out he began to announce it publicly and spread the story widely, so that Jesus was no longer able to enter any town openly but stayed outside in remote places. Still they kept coming to him from everywhere. 
 
-_The Bible, Gospel of Mark Chapter 1 (translation by netbible.org)_
 
+_The Bible, Gospel of Mark Chapter 1 (translation by netbible.org)_
 ---
 
 ...Add here 5 important things to notice
