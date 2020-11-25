@@ -7,7 +7,7 @@ tag: guide
 thumbnail: ./manuscript.jpg
 passage: Mark 3 
 ---
-Many good intentions get _off-track_ when their original purpose is forgotten. Who am I and what is life really about. Last time he challenged their _off-track_ rules about rest.
+Many good intentions get _off-track_ when their original purpose is forgotten. Who am I and what is life really about. Last time Jesus challenged their _off-track_ rules about rest.
 
 Today he looks his critics in the eye and shows them just how twisted and damaging their rules had become.
 He calls people back to a better way with different priorities.
@@ -21,7 +21,6 @@ Then he went back in the meeting place where he found a man with a crippled hand
 Then he spoke to the people: “What kind of action suits the Sabbath best? Doing good or doing evil? Helping people or leaving them helpless?” No one said a word.
 
  He looked them in the eye, one after another, angry now, furious at their hard-nosed religion. He said to the man, “Hold out your hand.” He held it out—it was as good as new! The Pharisees got out as fast as they could, sputtering about how they would join forces with Herod’s followers and ruin him.
-The Twelve Apostles
 
 Jesus went off with his disciples to the sea to get away. But a huge crowd from Galilee trailed after them—also from Judea, Jerusalem, Idumea, across the Jordan, and around Tyre and Sidon—swarms of people who had heard the reports and had come to see for themselves. He told his disciples to get a boat ready so he wouldn’t be trampled by the crowd. He had healed many people, and now everyone who had something wrong was pushing and shoving to get near and touch him.
 
@@ -48,7 +47,6 @@ Jesus went off with his disciples to the sea to get away. But a huge crowd from 
  The religion scholars from Jerusalem came down spreading rumors that he was working black magic, using devil tricks to impress them with spiritual power. Jesus confronted their slander with a story: “Does it make sense to send a devil to catch a devil, to use Satan to get rid of Satan? A constantly squabbling family disintegrates. If Satan were fighting Satan, there soon wouldn’t be any Satan left. Do you think it’s possible in broad daylight to enter the house of an awake, able-bodied man, and walk off with his possessions unless you tie him up first? Tie him up, though, and you can clean him out.
 
  “Listen to this carefully. I’m warning you. There’s nothing done or said that can’t be forgiven. But if you persist in your slanders against God’s Holy Spirit, you are repudiating the very One who forgives, sawing off the branch on which you’re sitting, severing by your own perversity all connection with the One who forgives.” He gave this warning because they were accusing him of being in league with Evil.
-Jesus’ Mother and Brothers
 
  Just then his mother and brothers showed up. Standing outside, they relayed a message that they wanted a word with him. He was surrounded by the crowd when he was given the message, “Your mother and brothers and sisters are outside looking for you.”
 
