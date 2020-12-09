@@ -12,7 +12,7 @@ Many good intentions get _off-track_ when their original purpose is forgotten. W
 Today he looks his critics in the eye and shows them just how twisted and damaging their rules had become.
 He calls people back to a better way with different priorities.
 
-Take a breath, centre yourself, stand in the crowded synagogue. Try to allow it challenge your own thinking...
+Take a breath, centre yourself, stand in the crowded synagogue. Try to allow it to challenge your own thinking...
 
 ---
 
@@ -58,7 +58,7 @@ _The Bible, Gospel of Mark Chapter 3 (The Message translation)_
 
 Further thoughts - Things to notice today...
 1. Jesus identity - You can only call good evil for so long.  Its not sustainable, and Jesus challenges his critics (opening paragraph) that doing nothing is evil. Martin Luther King famously said "Evil triumphs when Good people do nothing".  
-2. Living guilt free - This practice is at the heart of Christian Spiritality.  Making peace with God starts with humble acknowledgement of our failure, asking to be forgiven, accepting God's forgiveness (a clean record) and choosing walking free from guilt. 
-3. What's an Apostle - As crowds grow and follow Jesus, the simple logistics require some coordination.  Jesus picks twelve as 'apostles' or messengers of his mission. They are sent, more are sent later, to declare that God was on the move in a new way.  "Kingdom of heaven" was breaking through and revealing its self on earth.
+2. Living guilt free - This practice is at the heart of Christian Spiritality.  Making peace with God starts with humble acknowledgement of our failure, asking to be forgiven, accepting God's forgiveness (a clean record) and choosing walk free from guilt. 
+3. What's an Apostle - As crowds grow and follow Jesus, the simple logistics require some coordination.  Jesus picks twelve as 'apostles' or messengers of his mission. They are sent (more are sent later) to declare that God was on the move in a new way.  The "Kingdom of heaven" was breaking through and revealing its self on earth.
 4. Family Trouble - Friends and family try to stop Jesus and in their culture would have had every right to.  Jesus uses the situation to teach a key princilple that his primary allegience (& ours) is to our maker.  It doesn't matter what others say, live the higher calling. 
 
