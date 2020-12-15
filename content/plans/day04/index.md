@@ -59,19 +59,19 @@ _The Bible, Gospel of Mark Chapter 4 (The Message translation)_
 #Further thoughts - five things to notice...
 
 ##Spiritual Obstacles 
-Seed scattered on different soil -. Choose to get the Right people, the right thinking and the right activities in place so that you can clear the way for growth
+The soil where the scattered seed lands matters. We can choose to get the right people, the right thinking and the right activities in place to clear the way for spiritual growth.
 
-###Farmer is a lousy farmer
-Soil is something that can be changed. You could be deterministic about yourself. How much can I really change? But make your ground good. Pick up the stones and remove the weeds 
+###The farmer is a lousy farmer
+Soil is something that can be changed. You could be deterministic about yourself. How much can I really change? But make your ground good. Pick up the stones and remove the weeds. We can choose to get the right people, the right thinking and the right activities in place to clear the way for spiritual growth.
 
 ###Generosity beget generosity
-The farmer is generos with the seed. God doesn’t act exclusively with people. Be receptive to God. 
+The farmer is generous with the seed. God doesn’t act exclusively with people. Be receptive to God. 
 
 ###Stress, worry and other things do effect you spirituality
 Jesus story is a prompt to think about the state of your life. Is there growing room? This is not a deterministic story that puts people into categories but an observation and a fact that these soils exist. So be receptive... 
 
 ###Gods does unexpected things when we take time to look into it 
-Don’t let “life” (show the list) make you loose the bigger picture. Elsewhere (link James) the words of God are shaper than a sword. It has a way of finding the spot. God doesn’t push, he prompts. We to pause Need to listen 
+Don’t let “life” (show the list) make you loose the bigger picture. Elsewhere (link James) the words of God are shaper than a sword. It has a way of finding the spot. God doesn’t push, he prompts. We need to pause to listen 
 
 ###Calming Waves that frightened experienced Fishermen 
 Joining Jesus’ on his travels wasn't unusual in the first century. It was a common practice to follow a rabbi, to learn from him and be sent out to teach themselves. It was like an apprenticeship. For young people it was like a gap year before embarking on a career.  Or like a working adult returning to university for further study. They expected Jesus to be a teacher or a prophet, but what they didn’t expect was that he’d have the power to command nature. They felt great amount of awe or wonder and asked "who is this person?". What does it mean for you to pray?
